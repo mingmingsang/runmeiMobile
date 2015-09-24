@@ -1,0 +1,238 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>webrx-title</title>
+<meta name="description" content="简介">
+<meta name="keywords" content="关键字">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.css"/>
+<link rel="stylesheet" type="text/css" href="css/rm-theme2.css"/>
+<script src="js/jquery.js"></script>
+<script src="js/jquery.mobile-1.4.5.js"></script>
+<style>
+body {
+	font-family: "Microsoft YaHei";
+	font-size: 14px;
+}
+.full {
+	width: 100%;
+	height: auto;
+}
+.list-unstyled {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.text-primary {
+	color: #F03;
+}
+.text-gray {
+	color: #aaa;
+}
+
+http://pan.baidu.com/s/1qWQkvq0
+yclp
+
+.text-small{ font-size:0.7em;}
+#rm-panel .ui-listview >li{ padding:0; margin:0; border-radius:0;  }
+#rm-panel .ui-collapsible-content{ border:none;} 
+#rm-panel .ui-collapsible-heading{ margin:0; border-bottom:1px solid #ddd;}
+#rm-panel .ui-collapsible-heading.ui-collapsible-heading-collapsed{ border:none;}
+#rm-panel .ui-collapsible-heading a{ border:none; }
+
+#rm-header { background-color:#fff; border-top:3px solid #f06; height:4em;}
+#rm-header .logo{ border:0; box-shadow:none; background-color:transparent;}
+#rm-header #nav-btn{ top:0.8em; right:0.8em; border:none; background-color:transparent; filter:alpha(opacity=40); opacity:.4;}
+#rm-footer-nav { border-top:none; border-bottom:none;}
+</style>
+</head>
+
+<body>
+<div data-role="page" data-theme="a">
+<div data-role="panel" id="rm-panel" data-position="right"  data-display=" push" >
+
+<ul data-role="listview" data-inset="false">
+	<li data-icon="home"><a href="#">首页</a></li>
+    <li data-role="collapsible" data-iconpos="right"  data-collapsed-icon="carat-r" data-expanded-icon="carat-d" >
+    <h3>关于润美</h3>
+    	<ul data-role="listview">
+        	<li><a href="#">团队</a></li>
+            <li><a href="#">招聘</a></li>
+        </ul>
+    </li>
+    <li ><a href="#">专长</a></li>
+      <li data-role="collapsible" data-iconpos="right"  data-collapsed-icon="carat-r" data-expanded-icon="carat-d" >
+    <h3>新闻观点</h3>
+    	<ul data-role="listview">
+        	<li><a href="#">公司新闻</a></li>
+            <li><a href="#">行业新闻</a></li>
+        </ul>
+    </li>
+</ul>
+
+</div>
+
+  <div data-role="header" id="rm-header"> <a href="/" class="logo"><img src="images/logo.png" height="40"/></a>
+    <h1>润美传媒</h1>
+    <a href="#rm-panel" data-icon="bars" data-corners="false" data-iconpos="notext"  data-shadow="false" data-iconshadow="false" class="ui-alt-icon ui-nodisc-icon" id="nav-btn">导航</a> </div>
+  <div class="banner">
+    <ul class="list-unstyled">
+      <li><a href="/"><img src="images/bg1_1.jpg" class="full"/></a></li>
+    </ul>
+  </div>
+  <div data-role="content"  data-theme="e">
+    <section class="se se-news">
+      <h3 class="text-primary">新闻观点</h3>
+      <ul data-role="listview" data-inset="true" >
+        <li> <a href="#"> <img src="images/idea/s1.jpg"/>
+          <h4>微信2文化开年成果</h4>
+          <p>时至2014年12月31日，在这个辞旧迎新的开年时期，天气预报温度省提示会气温降到了零下5度，但是今日不同以往，位于郑</p>
+          <p class="ui-li-aside text-gray">2015/09/23</p>
+          </a></li>
+        <li> <a href="#"> <img src="images/idea/s3.jpg"/>
+          <h4>微信2文化开年成果</h4>
+          <p>时至2014年12月31日，在这个辞旧迎新的开年时期，天气预报温度省提示会气温降到了零下5度，但是今日不同以往，位于郑</p>
+          <p class="ui-li-aside text-gray">2015/09/23</p>
+          </a></li>
+        <li> <a href="#"> <img src="images/idea/s4.jpg"/>
+          <h4>微信2文化开年成果</h4>
+          <p>时至2014年12月31日，在这个辞旧迎新的开年时期，天气预报温度省提示会气温降到了零下5度，但是今日不同以往，位于郑</p>
+          <p class="ui-li-aside text-gray">2015/09/23</p>
+          </a></li>
+        </li>
+        <li> <a href="#"> <img src="images/idea/s2.jpg"/>
+          <h4>微信2文化开年成果</h4>
+          <p>时至2014年12月31日，在这个辞旧迎新的开年时期，天气预报温度省提示会气温降到了零下5度，但是今日不同以往，位于郑</p>
+          <p class="ui-li-aside text-gray">2015/09/23</p>
+          </a></li>
+      </ul>
+    </section>
+    <section cite="se produce">
+    	<h3 class="text-primary"> 作品  </h3>
+        	<div class=" ui-grid-b">
+            	<div class="ui-block-a"><a href="#p1" data-rel="popup" data-position-to="window" data-direction="reverse" data-transition="pop" ><img src="images/case_interactive/1.jpg"></a></div>
+                <div class="ui-block-b"><a href="#"><img src="images/case_interactive/2.jpg"></a></div>
+                 <div class="ui-block-c"><a href="#"><img src="images/case_interactive/3.jpg"></a></div>
+                 <div class="ui-block-a"><a href="#"><img src="images/case_interactive/4.jpg"></a></div>
+                <div class="ui-block-b"><a href="#"><img src="images/case_interactive/5.jpg"></a></div>
+                 <div class="ui-block-c"><a href="#"><img src="images/case_interactive/6.jpg"></a></div>
+                 <div class="ui-block-a"><a href="#"><img src="images/case_interactive/7.jpg"></a></div>
+                <div class="ui-block-b"><a href="#"><img src="images/case_interactive/8.jpg"></a></div>
+                 <div class="ui-block-c"><a href="#"><img src="images/case_interactive/9.jpg"></a></div>
+            </div>
+  <div id="p1" data-role="popup" data-overlay-theme="b"><a href="#" data-rel="back" data-role="button" data-icon="delete" data-iconpos="notext" class="ui-btn-right">关闭</a><img src="images/case_interactive/1_2.jpg"></div>
+  
+    </section>
+    <section>
+    <h3 class="text-primary">招聘 JOB</h3>
+    <p>我们致力为企业提供基于互联网的品牌管理和解决方案。<br/>
+我们年轻，我们富于创新，我们没有羁绊，我们无限发挥！<br/>
+我们为客户提供在线品牌策略及互动整合行销<br/>
+为企业品牌提供创新和创意<br/>
+我们致力打造新型的互动性社区平台<br/>
+如果您激情犹在，如果您不甘平淡，<a href="#">请加入我们</a></p>
+<p class="text-gray text-small">发送您的简历到： runmeimedia@zzrmcm.com 邮件中请附带您的得意作品或者作品地址让我们更好的了解您</p>
+<div data-role="collapsible-set" data-iconpos="right" data-collapsed-icon="carat-r" data-expanded-icon="carat-d" >
+	<div data-role="collapsible">
+    <h3>美术总监</h3>
+    <div>
+    <p>
+20-35岁，男女不限，专科及以上学历<br/>
+巡展、会议、活动策划、工作经验<br/>
+能够独立操作项目，具有较强的沟通能力和执行力<br/>
+优秀的文案策划能力、提案制作和陈述能力</p>
+<p><a href="#" class="text-primary">发送简历</a></p>
+<p><a href="#" data-role="button" data-inline="true">查看详情</a></p>
+ </div>
+    </div><!---折叠面板1-->
+    	<div data-role="collapsible">
+    <h3>行政经理</h3>
+    <div>
+    <p>
+20-35岁，男女不限，专科及以上学历<br/>
+巡展、会议、活动策划、工作经验<br/>
+能够独立操作项目，具有较强的沟通能力和执行力<br/>
+优秀的文案策划能力、提案制作和陈述能力</p>
+<p><a href="#" class="text-primary">发送简历</a></p>
+<p><a href="#" data-role="button" data-inline="true">查看详情</a></p>
+ </div>
+    </div><!---折叠面板1-->
+    	<div data-role="collapsible">
+    <h3>活动策划</h3>
+    <div>
+    <p>
+20-35岁，男女不限，专科及以上学历<br/>
+巡展、会议、活动策划、工作经验<br/>
+能够独立操作项目，具有较强的沟通能力和执行力<br/>
+优秀的文案策划能力、提案制作和陈述能力</p>
+<p><a href="#" class="text-primary">发送简历</a></p>
+<p><a href="#" data-role="button" data-inline="true">查看详情</a></p>
+ </div>
+    </div><!---折叠面板1-->
+    	<div data-role="collapsible">
+    <h3>专业打杂</h3>
+    <div>
+    <p>
+20-35岁，男女不限，专科及以上学历<br/>
+巡展、会议、活动策划、工作经验<br/>
+能够独立操作项目，具有较强的沟通能力和执行力<br/>
+优秀的文案策划能力、提案制作和陈述能力</p>
+<p><a href="#" class="text-primary">发送简历</a></p>
+<p><a href="#" data-role="button" data-inline="true">查看详情</a></p>
+ </div>
+    </div><!---折叠面板1-->
+ 
+<div>
+    </section>
+    <section class="se contact">
+    <h3>联系我们 Contact</h3>
+    
+   
+
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td colspan="2"><p class=" ui-link ui-icon-location  ui-btn ui-btn-icon-left">中国 . 郑州. 高新技术开发区. 中原广告产业园 3号楼5层127室</a></td>
+    </tr>
+  <tr>
+    <td>邮编：450000</td>
+    <td>传真：0371-55520001</td>
+  </tr>
+  <tr>
+    <td>电话：0371-55520003</td>
+    <td>邮箱：runmeimedia@zzrmcm.com</td>
+  </tr>
+</table>
+<form>
+<p><input type="text" placeholder="用户名"/></p>
+<p><input type="text" placeholder="公司名称"/></p>
+<p><input type="text" placeholder="邮箱"/></p>
+<div class="ui-grid-b">
+<div class="ui-block-a" style="width:70%"><input type="text" placeholder="验证码"/></div>
+<div class="ui-block-b" style="width:30%"><img src="images/vdimgck.jpg"/></div></div>
+<textarea placeholder="留言"></textarea>
+<p><input type="submit" value="确定" data-theme="d" /></p>
+</form>
+    </section>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="e"  id="rm-footer-nav">
+    <div data-role="navbar" >
+      <ul >
+        <li><a href="#" data-icon="home" class="ui-btn-active">首页</a></li>
+        <li><a href="#" data-icon="phone" >电话</a></li>
+        <li><a href="#map" data-icon="location">地图</a></li>
+        <li><a href="http://www.baidu.com" data-icon="grid">作品</a></li>
+        <li><a href="out.html" rel="external" data-icon="heart">分享</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!--home ed-->
+<div data-role="page" id="map">
+  <div data-role="header"> <a href="#" data-icon="arrow-l" data-rel="back"> 返回</a>
+    <h4>地图</h4>
+  </div>
+  <div data-role="content"> </div>
+</div>
+</body>
+</html>
